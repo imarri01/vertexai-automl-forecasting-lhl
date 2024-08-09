@@ -1,4 +1,3 @@
-Here's a more visually appealing and engaging version of the `README.md` file for your repository:
 
 ---
 
