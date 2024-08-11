@@ -1,5 +1,3 @@
-Below is the updated `README.md` content based on your provided structure, with an additional section for running the Streamlit app:
-
 ---
 
 # 🌟 AutoML Hierarchical Forecasting with Vertex AI 🌟
