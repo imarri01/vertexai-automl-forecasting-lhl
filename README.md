@@ -1,4 +1,3 @@
-Here's the updated README with key findings from the EDA and model results using Vertex AI:
 
 ---
 
@@ -46,7 +45,7 @@ This project aims to accomplish the following key tasks:
    - Dive deep into the data to identify patterns, trends, and anomalies that will inform the model-building process.
    
 3. **Model Development**:
-   - Leverage Vertex AI AutoML to construct a robust hierarchical forecasting model.
+   - Leverage Vertex AI AutoML to construct a robust hierarchical forecasting model using regression.
    - Train the model on curated sales data to predict future trends with precision.
    
 4. **Deployment and Batch Prediction**:
@@ -70,6 +69,7 @@ The EDA process revealed several crucial insights about the sales data:
 
 The Vertex AI model provided the following key results:
 
+- **Machine Learning Method**: The project utilizes **regression** within Vertex AI AutoML to solve the sales forecasting use case. Regression is well-suited for predicting continuous numerical values, making it ideal for forecasting future sales.
 - **Trend and Seasonality Capture**: The model effectively captured the overall trend and seasonal patterns in the sales data, providing accurate predictions aligned with the cyclical nature of the data.
 - **Prediction vs. Ground Truth**: The model's predictions closely followed the actual sales data, with minor discrepancies in magnitude. Certain products and store locations showed more significant differences, suggesting areas for model refinement.
 - **Scalability**: The model demonstrated strong scalability, efficiently handling batch predictions across different product categories and store locations.
@@ -128,3 +128,4 @@ We welcome contributions! If you have suggestions or improvements, feel free to 
 Thank you for exploring this project. We hope it serves as a valuable resource on your machine learning journey. Happy forecasting! 📈
 
 ---
+
