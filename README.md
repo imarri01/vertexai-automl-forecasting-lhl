@@ -1,3 +1,4 @@
+Here's the updated README with key findings from the EDA and model results using Vertex AI:
 
 ---
 
@@ -55,6 +56,29 @@ This project aims to accomplish the following key tasks:
 5. **Results Analysis**:
    - Visualize and evaluate the model's predictions to ensure accuracy and reliability.
 
+## 📊 Key Findings from EDA
+
+The EDA process revealed several crucial insights about the sales data:
+
+- **Seasonality**: Both `Snow` and `Water` product categories exhibited strong seasonal patterns, with sales peaking during their respective high-demand periods (e.g., winter for Snow products).
+- **Sales Distribution**: The `sales` feature was right-skewed, indicating that lower sales values were more frequent, with a few high-sales instances acting as outliers.
+- **Store Impact**: The `store_index` feature showed a strong negative correlation with `sales`, suggesting that certain stores consistently underperformed compared to others.
+- **Product-Specific Trends**: Some products consistently outperformed others, highlighting the importance of product-specific strategies.
+- **Correlation Analysis**: The `day_of_week` feature had a weak positive correlation with `sales`, indicating minor variations in sales depending on the day.
+
+## 📈 Model Results from Vertex AI
+
+The Vertex AI model provided the following key results:
+
+- **Trend and Seasonality Capture**: The model effectively captured the overall trend and seasonal patterns in the sales data, providing accurate predictions aligned with the cyclical nature of the data.
+- **Prediction vs. Ground Truth**: The model's predictions closely followed the actual sales data, with minor discrepancies in magnitude. Certain products and store locations showed more significant differences, suggesting areas for model refinement.
+- **Scalability**: The model demonstrated strong scalability, efficiently handling batch predictions across different product categories and store locations.
+
+### Further Improvements:
+
+- **Model Fine-Tuning**: Further refinement through hyperparameter tuning and feature engineering is recommended to improve accuracy, particularly in areas where the model slightly overestimated or underestimated sales.
+- **Granular Modeling**: Considering separate models or more detailed features for different product categories and store locations could reduce prediction discrepancies.
+
 ## 🚀 Getting Started
 
 ### Prerequisites
@@ -98,13 +122,9 @@ Explore the `images/` directory to find visual representations of the model's pe
 
 We welcome contributions! If you have suggestions or improvements, feel free to open an issue or submit a pull request. Let's build something great together.
 
-## 📜 License
-
-This project is licensed under the MIT License. For more information, see the `LICENSE` file.
 
 ---
 
 Thank you for exploring this project. We hope it serves as a valuable resource on your machine learning journey. Happy forecasting! 📈
 
 ---
-
