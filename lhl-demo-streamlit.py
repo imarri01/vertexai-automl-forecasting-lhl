@@ -14,6 +14,7 @@ numerical_features = sales_data.select_dtypes(include=['int64', 'float64']).colu
 rel_plot_img = 'images/rel_plot.png'
 prediction_vs_ground_truth_img = 'images/prediction_vs_ground_truth.png'
 eval_results_img = 'images/model_eval_results_gcp.png'
+architecture = 'images/final_project_architecture.png'
 
 # Set Streamlit app title
 st.title("🌟 AutoML Hierarchical Forecasting with Vertex AI")
@@ -42,6 +43,9 @@ if page == "Introduction":
     leveraging historical sales data to forecast future sales. The model will assist retailers in making data-driven 
     decisions to improve operational efficiency and profitability.
     """)
+
+    st.header("Architecture")
+    st.image(architecture, use_column_width=True)
 
 # EDA
 if page == "Exploratory Data Analysis (EDA)":
