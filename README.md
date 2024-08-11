@@ -1,3 +1,4 @@
+Below is the updated `README.md` content based on your provided structure, with an additional section for running the Streamlit app:
 
 ---
 
@@ -8,7 +9,7 @@ Welcome to the **AutoML Hierarchical Forecasting** project! This repository hous
 ## 🗂️ Project Structure
 
 ```plaintext
-lhl-final-project/
+vertexai-automl-forecasting-lhl/
 │
 ├── data/
 │   ├── raw/                      # Raw synthetic sales data
@@ -20,6 +21,7 @@ lhl-final-project/
 │
 ├── images/                       # Visuals and plots generated during the project
 │   ├── batch_prediction_screenshot.png
+│   ├── model_eval_results_gcp.png
 │   ├── prediction_vs_ground_truth.png
 │   ├── rel_plot.png
 │   └── upload_train_data_gcs.png
@@ -30,8 +32,10 @@ lhl-final-project/
 │   ├── model_development_and_prediction.ipynb  # Model development and deployment
 │   └── results_dataset.ipynb     # Prediction results analysis
 │
+├── lhl-demo-streamlit.py         # Streamlit app to demo the project
 ├── dataset.csv                   # Consolidated dataset for final analysis
-└── README.md                     # You're reading it right now!
+├── README.md                     # You're reading it right now!
+└── requirements.txt              # Python dependencies for the project
 ```
 
 ## 🎯 Project Objectives
@@ -111,6 +115,27 @@ Before diving in, ensure you have the following:
    - Proceed to `model_development_and_prediction.ipynb` for model building and deployment.
    - Finish with `results_dataset.ipynb` to analyze the forecasted results.
 
+### Running the Streamlit App
+
+To visualize and interact with the project's findings, run the Streamlit app as follows:
+
+1. **Install Streamlit** (if not already installed):
+   ```bash
+   pip install streamlit
+   ```
+
+2. **Run the Streamlit App**:
+   ```bash
+   streamlit run lhl-demo-streamlit.py
+   ```
+
+3. **Explore the App**:
+   - **Introduction**: Overview of the project and problem statement.
+   - **Exploratory Data Analysis (EDA)**: Visualizations and insights from the EDA process.
+   - **Model Training in Vertex AI**: Details about the model training process and key configuration settings.
+   - **Model Results**: Evaluation of the model's performance, including prediction accuracy and feature importance.
+   - **Batch Predictions**: Analysis of batch predictions compared to actual sales data.
+
 ## 📊 Results & Insights
 
 Explore the `images/` directory to find visual representations of the model's performance. Detailed analyses and evaluation metrics are documented in the `results_dataset.ipynb` notebook. Key highlights include:
@@ -127,5 +152,4 @@ We welcome contributions! If you have suggestions or improvements, feel free to 
 
 Thank you for exploring this project. We hope it serves as a valuable resource on your machine learning journey. Happy forecasting! 📈
 
----
-
+--- 
