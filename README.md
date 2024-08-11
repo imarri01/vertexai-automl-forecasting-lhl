@@ -6,6 +6,9 @@ Below is the updated `README.md` content based on your provided structure, with 
 
 Welcome to the **AutoML Hierarchical Forecasting** project! This repository houses a comprehensive journey from data exploration to model deployment, using Google Cloud's Vertex AI to harness the power of machine learning. Whether you're a data enthusiast or a seasoned data scientist, this project provides valuable insights into building and deploying forecasting models at scale.
 
+## Architecture
+![Project Architecture](images/final_project_architecture.png "Project Architecture")
+
 ## 🗂️ Project Structure
 
 ```plaintext
