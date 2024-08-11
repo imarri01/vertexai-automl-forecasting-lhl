@@ -111,9 +111,10 @@ Before diving in, ensure you have the following:
    ```
 
 4. **Run the Notebooks**:
-   - Begin with `EDA.ipynb` to explore the data.
-   - Proceed to `model_development_and_prediction.ipynb` for model building and deployment.
-   - Finish with `results_dataset.ipynb` to analyze the forecasted results.
+   
+   - Start with `GoogleCloudEnvSetup.ipynb` for environment setup
+   - Then proceed to `EDA.ipynb` to explore the data.
+   - Proceed to and finish with `model_development_and_prediction.ipynb` for model building, deployment and to analyze the forecasted results.
 
 ### Running the Streamlit App
 
@@ -138,7 +139,7 @@ To visualize and interact with the project's findings, run the Streamlit app as 
 
 ## 📊 Results & Insights
 
-Explore the `images/` directory to find visual representations of the model's performance. Detailed analyses and evaluation metrics are documented in the `results_dataset.ipynb` notebook. Key highlights include:
+Explore the `images/` directory to find visual representations of the model's performance. Detailed analyses and evaluation metrics are documented in the `model_development_and_prediction.ipynb` notebook. Key highlights include:
 
 - **Prediction vs. Ground Truth**: See how the model's forecasts align with actual data.
 - **Batch Predictions**: Visual snapshots of the batch prediction process, showcasing the model's scalability.
