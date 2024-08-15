@@ -16,7 +16,7 @@ numerical_features = sales_data.select_dtypes(include=['int64', 'float64']).colu
 rel_plot_img = 'images/rel_plot.png'
 prediction_vs_ground_truth_img = 'images/prediction_vs_ground_truth.png'
 eval_results_img = 'images/model_eval_results_gcp.png'
-architecture = 'images/final_project_architecture.png'
+architecture = 'images/final_architecture.png'
 storefront = 'images/storefront.jpeg'
 batch_prediction = 'images/batch_prediction_screenshot.png'
 vertex_code = 'images/vertex_code_screenshot.png'
